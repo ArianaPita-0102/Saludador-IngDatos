@@ -24,9 +24,15 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a0486c27c718dae825780dcebbb3df7d14c7fb3e",
     "commitName": "feat: agregar saludo formal segun edad",
     "commitTimestamp": 1771471528687,
     "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar saludo en ingles segun idioma seleccionado",
+    "commitTimestamp": 1771471773148,
+    "testId": 5
   }
 ]
