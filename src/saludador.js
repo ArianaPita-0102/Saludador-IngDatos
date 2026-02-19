@@ -1,17 +1,25 @@
-function saludar(nombre) {
+function saludar(nombre, genero) {
   const hora = new Date().getHours();
 
-  let saludo;
+  let saludoHora;
 
   if (hora < 12) {
-    saludo = "Buenos días";
+    saludoHora = "Buenos días";
   } else if (hora < 18) {
-    saludo = "Buenas tardes";
+    saludoHora = "Buenas tardes";
   } else {
-    saludo = "Buenas noches";
+    saludoHora = "Buenas noches";
   }
 
-  return saludo + " " + nombre;
+  let titulo = "";
+
+  if (genero === "masculino") {
+    titulo = "Señor";
+  } else if (genero === "femenino") {
+    titulo = "Señora";
+  }
+
+  return saludoHora + " " + titulo + " " + nombre;
 }
 
 export default saludar;
