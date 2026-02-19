@@ -1,8 +1,14 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "f1b1e1dda27657b592626eb0decda65cafc1cee9",
     "commitName": "feat: saludo basico",
     "commitTimestamp": 1771470697274,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludar con nombre de usuario",
+    "commitTimestamp": 1771470918220,
+    "testId": 1
   }
 ]
